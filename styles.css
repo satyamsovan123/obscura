@@ -1,0 +1,369 @@
+/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Courier Prime', monospace;
+font-family: 'Roboto', sans-serif;
+
+Font-Family: 'Roboto Condensed', Sans-Serif;
+Font-Size: 35px;
+Font-Family: 'Cabin', Sans-Serif;
+Font-Size: 16px;
+
+background-color: #222831
+background-color: #393e46
+background-color: #00adb5
+background-color: #ededed
+*/
+
+/* Title Section */
+
+#title{
+  background-color: #00adb5;
+  color: #ededed;
+  padding-bottom: 3%;
+}
+
+.text{
+  color: #ededed;
+}
+
+.text:hover{
+  color: #ededed;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ededed;
+}
+
+.fa-apple{
+  margin-bottom: 1px;
+  font-size: 107%;
+}
+
+.fa-google-play{
+  font-size: 95%;
+}
+
+.container-fluid{
+  padding: 3% 7% 2% 7%;
+}
+
+.nv-br{
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+  font-size: 250%;
+  font-weight: bold;
+  background-color: #00adb5;
+  color: #ededed;
+  text-shadow: 3px 3px 7px #393e46;
+}
+
+.nv-br:hover{
+  transform: translateY(1px);
+  text-shadow: 10px 10px 20px #393e46;
+  transform: scale(1.1);
+}
+
+.nv-side{
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding-right: 7%;
+}
+
+.nv-lk{
+  margin-right: 2%;
+}
+
+.main{
+  padding: 3%;
+}
+
+h1{
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+  font-weight: 700;
+  font-size: 420%;
+  padding-top: 5%;
+}
+
+.mid{
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+  font-size: 110%;
+  text-shadow: 2px 2px 4px #393e46;
+  font-weight: bold;
+  background-color: #00adb5;
+  color: #ededed;
+}
+
+.mid:hover{
+  transform: translateY(1px);
+  text-shadow: 8px 8px 16px #393e46;
+  transform: scale(1.2);
+}
+
+.sub-heading{
+  Font-Family: 'Cabin', Sans-Serif;
+  margin-top: 3%;
+  font-size: 230%;
+}
+
+.iphone-portrait{
+  display: inline-block;
+  width: 43%;
+  margin-top: 7%;
+  margin-left: 64%;
+  animation: drop 2.0s ease;
+}
+
+@keyframes drop{
+	0%{
+		opacity: 0;
+		transform: translateY(-80px) rotateY(45deg);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px) rotateY(0deg);
+	}
+
+}
+
+/* Download Buttons */
+
+.dl-bt1, .dl-bt2{
+  background-color: #00adb5;
+	border: #00adb5;
+  color: #ededed;
+  box-shadow: 1px 2px 5px 0px black;
+  margin: 6% 0%;
+}
+
+.dl-bt2{
+  margin-left: 4%;
+  box-shadow: 2px 2px 5px 0px black;
+}
+
+.dl-bt1:hover, .dl-bt2:hover{
+  background-color: #00adb5;
+  transition: 0.4s ease-out;
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+/* Features Section */
+
+#features{
+  background-color: #ededed;
+  color: #222831;
+  padding: 3% 7%;
+  text-align: center;
+  Font-Family: 'Cabin', Sans-Serif;
+}
+
+.ip-ln{
+  padding: 3%;
+}
+
+.iphone-landscape{
+  width: 100%;
+}
+
+h4{
+  Font-Family: 'Cabin', Sans-Serif;
+  font-weight: 900;
+}
+
+.ft-box{
+  padding: 7% 6.8%;
+}
+
+p{
+  color: #393e46;
+}
+
+.im-mode{
+  padding-bottom: 8%;
+}
+
+
+/* CTA Section */
+
+#cta{
+  margin-top: -9%;
+  background-color: #ededed;
+  color: #393e46;
+  padding: 5% 9%;
+  text-align: center;
+  Font-Family: 'Cabin', Sans-Serif;
+}
+
+h3{
+  font-size: 210%;
+}
+
+#cta p{
+  font-size: 140%;
+  color: #393e46;
+}
+
+.ct{
+  position: relative;
+}
+
+.cta-c{
+  margin-top: 2%;
+  color: #393e46;
+}
+
+.cta-bt{
+  margin: auto;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300adb5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300adb5' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.highlight{
+  color: #00adb5;
+}
+
+/* Footer Section */
+
+#footer{
+  margin-top: -3%;
+  background-color: #00adb5;
+  color: #ededed;
+  padding: 1% 7%;
+  text-align: center;
+  Font-Family: 'Cabin', Sans-Serif;
+}
+
+.p-ft{
+  margin-top: 2%;
+  color: #ededed;
+  font-size: 110%;
+}
+
+#footer h3{
+  padding-top: 19%;
+  text-align: center;
+  margin-bottom: -20%;
+}
+
+.ic{
+  color: #393e46;
+  font-size: 110%;
+  margin: 1% 2%;
+}
+
+.ic:hover{
+  color: #ededed;
+  transform: scale(1.5);
+}
+
+/* Media Queries */
+
+@media (max-width: 991px){
+
+  #title{
+    text-align: center;
+  }
+
+  .iphone-portrait{
+    position: static;
+    padding-top: 5%;
+    margin: auto;
+    width: 60%;
+    animation: drop-mob 2.0s ease;
+  }
+
+
+    @keyframes drop-mob{
+    	0%{
+    		opacity: 0;
+    		transform: translateY(-20px) rotateY(30deg);
+    	}
+    	100%{
+    		opacity: 1;
+    		transform: translateY(0px) rotateY(0deg);
+    	}
+
+    }
+
+  .ic{
+    box-sizing: content-box;
+  }
+
+}
+
+@media (max-width: 401px){
+  .nvt{
+    margin: auto;
+  }
+  .nav-item{
+    margin-left: 9%;
+  }
+  .navbar-toggler{
+    margin-bottom: 21%;
+  }
+  h1{
+    font-size: 380%;
+  }
+  .sub-heading{
+    padding-top: 6%;
+    padding-bottom: 5%;
+    font-size: 200%;
+  }
+  .dl-bt1, .dl-bt2{
+    margin-bottom: 12%;
+  }
+  .ip-ln{
+    padding-bottom: 7%;
+  }
+  .ip-ln h3{
+    font-size: 180%;
+    padding-bottom: 3%;
+  }
+  .iphone-landscape{
+    margin-bottom: 8%;
+  }
+  .others{
+    margin-bottom: 9%;
+  }
+  .carousel-control-prev{
+    padding-right: 5%;
+  }
+  .carousel-control-next{
+    padding-left: 5%;
+  }
+  .cta-bt{
+    margin-top: 9%;
+  }
+  .ct-dl{
+    padding: 3%;
+  }
+  #footer{
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 370px){
+  .dl-bt2{
+    margin-left: 1%;
+  }
+}
+
+@media (min-width: 1620px){
+  h1{
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    font-weight: 700;
+    font-size: 520%;
+    padding-top: 5%;
+  }
+
+}

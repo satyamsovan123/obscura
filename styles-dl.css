@@ -1,0 +1,101 @@
+body{
+	background-color: #ededed;
+	text-align: center;
+}
+
+.container-fluid{
+	padding: 0%;
+	position: relative;
+	z-index: -1;
+
+}
+/*
+.cam-3d-t{
+	position: absolute;
+	left: 20%;
+	width: 101%;
+}
+
+.cam-3d-b{
+	position: absolute;
+  left: 20%;
+	top: 2%;
+	width: 100%;
+} */
+
+.head{
+	padding: 25%;
+	padding-bottom: 2%;
+	/* color: #222831; */
+	background: linear-gradient(to top, #222831 40%, #ededed 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	z-index: 1;
+	font-size: 330%;
+}
+
+.cam-3d-c{
+	position: absolute;
+	top: 3%;
+	left: 10%;
+	width: 100%;
+	animation: my-anim 2.0s ease;
+}
+
+
+@keyframes my-anim {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.cam-3d-t{
+	display: none;
+	opacity: 0;
+}
+
+.cam-3d-b{
+	display: none;
+	opacity: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 990px){
+  .head{
+    margin-top: 45%;
+  }
+
+	.cam-3d-b{
+		display: block;
+		margin-left: 10%;
+		position: static;
+		opacity: 1;
+	}
+}
+
+@media (max-width: 730px){
+  .head{
+    margin-top: 45%;
+  }
+
+	.cam-3d-b{
+		display: block;
+		margin-left: 10%;
+		position: static;
+		opacity: 1;
+	}
+
+	.cam-3d-t{
+		margin-top: 5.3%;
+		display: block;
+		margin-left: 10%;
+		position: static;
+		opacity: 1;
+	}
+}
